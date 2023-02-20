@@ -33,7 +33,18 @@ section, .demo {
     border: 1px dashed;
 }
 
-.debug 
+.debug .section_heading,
+.testimonial {
+    height: 140px;
+    border: 1px dashed black;
+    background-color: orange;
+    padding: 1rem 0;
+}
+
+
+.debug .col_12, .col_lg_8 {
+    background-color: red;
+}
 
 
 /* #endregionDEBUG */
@@ -75,7 +86,7 @@ section, .demo {
     width: calc(100% / 12 * 3);
 }
 
-.md_ {
+.col_4 {
     width: calc(100% / 12 * 4);
 }
 
@@ -162,7 +173,7 @@ section, .demo {
         width: calc(100% / 12 * 11);
     }
     
-    .col_12 {
+    .col_md_12 {
         width: 100%;
     }
 
@@ -216,7 +227,7 @@ section, .demo {
         width: calc(100% / 12 * 11);
     }
     
-    .col_12 {
+    .col_lg_12 {
         width: 100%;
     }
 
