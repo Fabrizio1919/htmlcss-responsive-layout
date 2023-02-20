@@ -18,9 +18,9 @@ section, .demo {
 
 /* regionDEBUG */
 
-.debug #side_header {
+/* .debug #side_header {
     height: 70px;
-}
+} */
 
 .debug .image {
     background-color: orange;
