@@ -11,6 +11,10 @@
     --dark: #333333;
 }
 
+section, .demo {
+    padding: 2rem 0;
+}
+
 
 /* regionDEBUG */
 
@@ -28,6 +32,8 @@
     height: 300px;
     border: 1px dashed;
 }
+
+.debug 
 
 
 /* #endregionDEBUG */
@@ -228,6 +234,6 @@
 
 /* MAIN */
 
-.planning {
+.planning, .benefits {
     background-color: #9792e4;
 }
