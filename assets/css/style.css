@@ -11,6 +11,10 @@
     --dark: #333333;
 }
 
+body {
+font-family: 'PT Sans', sans-serif;
+}
+
 section, .demo {
     padding: 2rem 0;
 }
@@ -245,6 +249,9 @@ section, .demo {
 
 /* MAIN */
 
-.planning, .benefits {
+.planning, 
+.benefits,
+.get_started
+ {
     background-color: #9792e4;
 }
