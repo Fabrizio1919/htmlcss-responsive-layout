@@ -383,17 +383,68 @@ nav {
         background-color: var(--primary);
         border-radius: 30px;
         padding: 10px;
+        display: flex;
+        align-items: center;
+        color: var(--light);
     }
 
     .bio {
-        display: flex;
-        align-items: center;
+        /* display: flex;
+        align-items: center; */
         margin: 0 2rem;
     }
 
     .avatar img {
+        max-width: 200px;
         border-radius: 50%;
+        aspect-ratio: 1 / 1
     }
+
+    .testimonial h5 {
+        padding-top: 10px;
+        color: var(--light);
+    }
+
+    .section_heading h2 {
+        font-size: 40px;
+        color: var(--primary);
+    }
+
+    .benefits h2 {
+        text-align: center;
+        font-size: 40px;
+        color: var(--light);
+        padding-bottom: 2rem;
+    }
+
+   .benefits .col_12, 
+   .benefits .col_md_6, 
+   .benefits .col_lg_4 {
+    display: flex;
+    border: 12px solid var(--primary);
+    background-color: white;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: self-start;
+    padding: 20px 30px;
+    gap: 1rem;
+   }
+   
+   .benefits span {
+    color: var(--primary);
+    font-size: 50px;
+   }
+   
+   .benefits h3 {
+    color: var(--primary);
+   }
+
+   .benefits button {
+    background-color: var(--primary);
+    color:var(--light);
+    margin: 10px 0px;
+    padding: 9px 40px;
+   }
 
 
 
