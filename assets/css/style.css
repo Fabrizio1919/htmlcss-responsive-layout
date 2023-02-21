@@ -455,7 +455,7 @@ nav {
     padding-bottom: 2rem ;
    }
 
-   .about .col_12, 
+   
    .about .col_md_8 {
     display: flex;
     flex-direction: column;
@@ -475,6 +475,13 @@ nav {
 
    .about .text_about {
     padding: 0px 25%;
+   }
+
+   .about .col_md_4 {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
    }
 
 
