@@ -40,10 +40,10 @@ section,
 
 .debug .section_heading,
 .testimonial {
-    height: 140px;
+    /* height: 140px;
     border: 1px dashed black;
     background-color: orange;
-    padding: 1rem 0;
+    padding: 1rem 0; */
 }
 
 
@@ -159,7 +159,7 @@ nav {
 .col_md_8,
 .col_md_4 {
     /* background-color: #b5ddff; */
-    
+
 }
 
 
@@ -307,7 +307,7 @@ nav {
     .col_md_4 {
         flex-direction: column;
         align-items: center;
-        padding: 1rem 0 ;
+        padding: 1rem 0;
     }
 
     .col_md_4 i,
@@ -336,13 +336,13 @@ nav {
         border: none;
 
     }
-    .demo  p {
+
+    .demo p {
         text-align: center;
         margin: 2rem 2rem;
     }
 
-    .planning .text_planning
-    {
+    .planning .text_planning {
         display: flex;
         flex-direction: column;
         gap: 2rem;
@@ -355,8 +355,7 @@ nav {
         color: white;
     }
 
-    .planning .text_right 
-    {
+    .planning .text_right {
         border: 35px solid white;
         border-radius: 24px;
         background-color: white;
@@ -370,6 +369,30 @@ nav {
 
     .text_right h3 {
         color: black;
+    }
+
+    .section_heading {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .testimonial {
+        margin: 2rem 0;
+        background-color: var(--primary);
+        border-radius: 30px;
+        padding: 10px;
+    }
+
+    .bio {
+        display: flex;
+        align-items: center;
+        margin: 0 2rem;
+    }
+
+    .avatar img {
+        border-radius: 50%;
     }
 
 
