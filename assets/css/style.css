@@ -188,33 +188,33 @@ nav {
 }
 
 .demo .col_md_8 {
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.col_md_4 {
+.demo .col_md_4 {
     flex-direction: column;
     align-items: center;
     padding: 1rem 0;
 }
 
-.col_md_4 i,
+.demo .col_md_4 i,
 h3 {
     color: var(--secondary);
     text-align: center;
 }
 
-.image-demo {
+.demo .image-demo {
     display: flex;
     flex-direction: column-reverse;
 }
 
-.text-demo {
+.demo .text-demo {
     display: flex;
     flex-direction: column;
     padding: 1rem 0;
 }
 
-button {
+.demo button {
     padding: 5px;
     margin: 0px 9rem;
     border-radius: 15px;
@@ -229,6 +229,7 @@ button {
     margin: 2rem 2rem;
 }
 
+
 .planning .text_planning {
     display: flex;
     flex-direction: column;
@@ -237,6 +238,7 @@ button {
     padding: 10px;
     color: var(--light);
 }
+
 
 .text_planning h3 {
     color: white;
@@ -331,7 +333,9 @@ button {
     color: var(--light);
     margin: 10px 0px;
     padding: 9px 40px;
-}
+    border-radius: 20px;
+    border: none;
+    }
 
 .about h2 {
     font-size: 40px;
@@ -392,7 +396,7 @@ button {
 
 .get_started .col_12 button {
     padding: 15px;
-    margin: 0px 29rem;
+    margin: 1px 15rem;
     border-radius: 28px;
     background-color: var(--light);
     color: var(--primary);
@@ -410,6 +414,9 @@ button {
     color: var(--light);
     font-size: 10px;
 }
+
+
+
 
 
 /* END MAIN */
@@ -642,6 +649,8 @@ button {
         color: var(--light);
         margin: 10px 0px;
         padding: 9px 40px;
+        border-radius: 20px;
+        border: none;
     }
 
     .about h2 {
@@ -703,7 +712,7 @@ button {
 
     .get_started .col_12 button {
         padding: 15px;
-        margin: 0px 29rem;
+        margin: 1px 15rem;
         border-radius: 28px;
         background-color: var(--light);
         color: var(--primary);
@@ -1006,7 +1015,7 @@ button {
 
     .get_started .col_12 button {
         padding: 15px;
-        margin: 0px 29rem;
+        margin: 0px 26rem;
         border-radius: 28px;
         background-color: var(--light);
         color: var(--primary);
