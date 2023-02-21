@@ -473,7 +473,9 @@ nav {
     font-size: 20px;
    }
 
-   
+   .about .text_about {
+    padding: 0px 25%;
+   }
 
 
 
