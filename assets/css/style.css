@@ -9,14 +9,16 @@
     --secondary: #0084fd;
     --light: #ffffff;
     --dark: #333333;
+    --card: #b5ddff;
 }
 
 body {
-font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
-section, .demo {
-    padding: 2rem 0;
+section,
+.demo {
+    padding: 4rem 0;
 }
 
 
@@ -31,8 +33,7 @@ section, .demo {
     height: 10px;
 }
 
-.debug [class^="col_"]
-{
+.debug [class^="col_"] {
     height: 300px;
     border: 1px dashed;
 }
@@ -46,12 +47,15 @@ section, .demo {
 }
 
 
-.debug .col_12, .col_lg_8 {
+.debug .col_12,
+.col_lg_8 {
     background-color: red;
 }
 
 
 /* #endregionDEBUG */
+
+
 
 
 
@@ -66,7 +70,7 @@ section, .demo {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -1rem;
+
 }
 
 .d-flex {
@@ -77,6 +81,13 @@ section, .demo {
     justify-content: space-between;
 }
 
+img {
+    max-width: 100%;
+}
+
+.secondary {
+    color: #b5ddff;
+}
 
 .col_1 {
     width: calc(100% / 12 * 1);
@@ -129,6 +140,38 @@ section, .demo {
 
 /*#endregionUtilities */
 
+/* HEADER */
+
+#side_header {
+    background-color: var(--secondary);
+}
+
+nav {
+    max-width: 1152px;
+    margin: auto;
+}
+
+.menu-dex {
+    display: none;
+}
+
+.col_12,
+.col_md_8,
+.col_md_4 {
+    /* background-color: #b5ddff; */
+    
+}
+
+
+
+/* MAIN */
+
+.planning,
+.benefits,
+.get_started {
+    background-color: #9792e4;
+}
+
 
 /* Responsive Layout */
 
@@ -136,52 +179,55 @@ section, .demo {
     .col_md_1 {
         width: calc(100% / 12 * 1);
     }
-    
+
     .col_md_2 {
         width: calc(100% / 12 * 2);
     }
-    
+
     .col_md_3 {
         width: calc(100% / 12 * 3);
     }
-    
+
     .col_md_4 {
         width: calc(100% / 12 * 4);
     }
-    
+
     .col_md_5 {
         width: calc(100% / 12 * 5);
     }
-    
+
     .col_md_6 {
         width: 50%;
     }
-    
+
     .col_md_7 {
         width: calc(100% / 12 * 7);
     }
-    
+
     .col_md_8 {
         width: calc(100% / 12 * 8);
     }
-    
+
     .col_md_9 {
         width: calc(100% / 12 * 9);
     }
-    
+
     .col_md_10 {
         width: calc(100% / 12 * 10);
     }
-    
+
     .col_md_11 {
         width: calc(100% / 12 * 11);
     }
-    
+
     .col_md_12 {
         width: 100%;
     }
 
+
+
 }
+
 /* #end Responsive Layout */
 
 
@@ -190,68 +236,147 @@ section, .demo {
     .col_lg_1 {
         width: calc(100% / 12 * 1);
     }
-    
+
     .col_lg_2 {
         width: calc(100% / 12 * 2);
     }
-    
+
     .col_lg_3 {
         width: calc(100% / 12 * 3);
     }
-    
+
     .col_lg_4 {
         width: calc(100% / 12 * 4);
     }
-    
+
     .col_lg_5 {
         width: calc(100% / 12 * 5);
     }
-    
+
     .col_lg_6 {
         width: 50%;
     }
-    
+
     .col_lg_7 {
         width: calc(100% / 12 * 7);
     }
-    
+
     .col_lg_8 {
         width: calc(100% / 12 * 8);
     }
-    
+
     .col_lg_9 {
         width: calc(100% / 12 * 9);
     }
-    
+
     .col_lg_10 {
         width: calc(100% / 12 * 10);
     }
-    
+
     .col_lg_11 {
         width: calc(100% / 12 * 11);
     }
-    
+
     .col_lg_12 {
         width: 100%;
     }
 
+    .menu-dex {
+        display: block;
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu-dex ul {
+        color: var(--light);
+        list-style: none;
+        gap: 2rem;
+        padding: 10px 0;
+    }
+
+    .demo .col_12,
+    .demo .col_md_8 {
+        display: flex;
+        border: 12px solid white;
+        background-color: #b5ddff;
+        border-radius: 35px;
+    }
+
+    .col_md_4 {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0 ;
+    }
+
+    .col_md_4 i,
+    h3 {
+        color: var(--secondary);
+        text-align: center;
+    }
+
+    .image-demo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .text-demo {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    button {
+        padding: 5px;
+        margin: 0px 9rem;
+        border-radius: 15px;
+        background-color: var(--secondary);
+        color: var(--light);
+        border: none;
+
+    }
+    .demo  p {
+        text-align: center;
+        margin: 2rem 2rem;
+    }
+
+    .planning .text_planning
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: 0px 75px;
+        padding: 10px;
+        color: var(--light);
+    }
+
+    .text_planning h3 {
+        color: white;
+    }
+
+    .planning .text_right 
+    {
+        border: 35px solid white;
+        border-radius: 24px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: 0px 75px;
+        margin-top: 200px;
+        padding: 10px;
+    }
+
+    .text_right h3 {
+        color: black;
+    }
+
+
+
+
 }
+
+
+
 /* #end Responsive Layout 1200 */
-
-
-/* HEADER */
-
-#side_header {
-    background-color: var(--secondary);
-}
-
-
-
-/* MAIN */
-
-.planning, 
-.benefits,
-.get_started
- {
-    background-color: #9792e4;
-}

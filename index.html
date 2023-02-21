@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body class="debug">
+
+<body class="">
 
     <header id="side_header">
-        <div class="container">
-            <div class="row">
-                <div class="col_12 col_md_8"></div>
-                <!-- ./col_12 col_md_8 -->
-                <div class="col_12 col_md_4"></div>
-                <!-- ./col_12 col_md_4 --> 
+        <nav class="d-flex space-between">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="">
             </div>
-        </div>
+            <!-- ./col_12 col_md_8 -->
+            <div class="menu-dex">
+                <ul class="d-flex">
+                    <li>Planning</li>
+                    <li>Testimonials</li>
+                    <li>Features</li>
+                    <li>About Us</li>
+                    <li><a href="#"></a>Get Started</li>
+                </ul>
+            </div>
+            <div class="menu-mobile"></div>
+        </nav>
     </header>
     <!-- /#side_header -->
 
@@ -25,11 +36,41 @@
         <div class="demo">
             <div class="container">
                 <div class="row">
-                    <div class="col_12 col_md_8"></div>
-                    <div class="col_12 col_md_4"></div>
-                    <div class="col_12 col_md_4"></div>
-                    <div class="col_12 col_md_4"></div>
-                    <div class="col_12 col_md_4"></div>
+                    <div class="col_12 col_md_8">
+                        <div class="text-demo">
+                            <h3>Get a demo application</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis in perferendis, sint
+                            illum recusandae aspernatur quos doloribus placeat qui.
+                            </p>
+                            <button><i class="fa-brands fa-apple"></i> App Store</button>
+                        </div>
+                        <div class="image-demo">
+                            <img src="./assets/img/phone.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col_12 col_md_4">
+                        <i class="fa-solid fa-file-code
+                        fa-4x"></i>
+                        <h3>Clean Code</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti distinctio quis suscipit in assumenda architecto magni mollitia vero.</p>
+                    </div>
+                    <div class="col_12 col_md_4">
+                        <i class="fa-solid fa-compass-drafting
+                        fa-4x"></i>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti distinctio quis suscipit in assumenda architecto magni mollitia vero.</p>
+                    </div>
+                    <div class="col_12 col_md_4">
+                        <i class="fa-solid fa-laptop-code fa-4x"></i>
+                        <h3>Developement</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti distinctio quis suscipit in assumenda architecto magni mollitia vero.</p>
+                    </div>
+                    <div class="col_12 col_md_4">
+                        <i class="fa-solid fa-bullhorn fa-4x"></i>
+                        <h3>Brandig</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti distinctio quis suscipit in assumenda architecto magni mollitia vero.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -38,10 +79,23 @@
         <section class="planning">
             <div class="container">
                 <div class="row">
-                    <div class="col_12 col_md_6"></div>
-                   <!-- /.col_12 col_lg_6 -->
-                    <div class="col_12 col_md_6"></div>
-                     <!-- /.col_12 col_lg_6 -->
+                    <div class="col_12 col_md_6">
+                        <div class="text_planning">
+                         <img src="./assets/img/planning1.png" alt="">
+                            <h3>Strategic Planning</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quos, officiis tenetur itaque quibusdam aliquam ipsa accusantium dignissimos natus debitis mollitia vero officia dolores autem at quasi facilis ullam fugiat.</p>
+                        </div>
+                    </div>                      
+                    <!-- /.col_12 col_lg_6 -->
+                    <div class="col_12 col_md_6">
+                    <div class="text_right">
+                        <img src="./assets/img/planning2.png" alt="">
+                            <h3>App Developement</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aut tenetur iusto nobis quo, repellat corporis.</p>
+                    </div>
+
+                    </div>
+                    <!-- /.col_12 col_lg_6 -->
                 </div>
             </div>
         </section>
@@ -127,13 +181,14 @@
         <div class="container">
             <div class="row">
                 <div class="col_12">
-                    
+
                 </div>
             </div>
         </div>
     </footer>
     <!-- /#side_footer -->
 
-    
+
 </body>
+
 </html>
